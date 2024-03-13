@@ -304,12 +304,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphprotocol/graph-ts@npm:0.31.0":
-  version: 0.31.0
-  resolution: "@graphprotocol/graph-ts@npm:0.31.0"
+"@graphprotocol/graph-ts@npm:0.33.0":
+  version: 0.33.0
+  resolution: "@graphprotocol/graph-ts@npm:0.33.0"
   dependencies:
     assemblyscript: 0.19.10
-  checksum: 20394b17d3241a662f0b2efebdc02f44e4e0814fdbb09b4cac0c84b84a173798325840bc1daf1d11ebaf27b1b3e13ff6e2766567c755cb77c1321ba1462fbecc
+  checksum: 083400dbf82cad7af6e2f059ced514a84776a708f6083b41048641c3ff53c7ab2e06d49c709dff67fc941ae0a00b2fe99a7fcb8da7f14718e2bb6f5556aac835
   languageName: node
   linkType: hard
 
@@ -2412,7 +2412,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -2629,7 +2629,7 @@ __metadata:
   resolution: "gro-subgraph-eth@workspace:."
   dependencies:
     "@graphprotocol/graph-cli": 0.56.0
-    "@graphprotocol/graph-ts": 0.31.0
+    "@graphprotocol/graph-ts": 0.33.0
     ejs: ^3.1.9
     mustache: ^4.2.0
     node-fetch: ^3.3.2
