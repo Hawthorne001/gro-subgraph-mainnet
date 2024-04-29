@@ -1921,7 +1921,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ejs@npm:^3.1.8, ejs@npm:^3.1.9":
+"ejs@npm:^3.1.10":
+  version: 3.1.10
+  resolution: "ejs@npm:3.1.10"
+  dependencies:
+    jake: ^10.8.5
+  bin:
+    ejs: bin/cli.js
+  checksum: ce90637e9c7538663ae023b8a7a380b2ef7cc4096de70be85abf5a3b9641912dde65353211d05e24d56b1f242d71185c6d00e02cb8860701d571786d92c71f05
+  languageName: node
+  linkType: hard
+
+"ejs@npm:^3.1.8":
   version: 3.1.9
   resolution: "ejs@npm:3.1.9"
   dependencies:
@@ -2412,7 +2423,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -2630,7 +2641,7 @@ __metadata:
   dependencies:
     "@graphprotocol/graph-cli": 0.56.0
     "@graphprotocol/graph-ts": 0.31.0
-    ejs: ^3.1.9
+    ejs: ^3.1.10
     mustache: ^4.2.0
     node-fetch: ^3.3.2
     yargs-parser: ^21.1.1
